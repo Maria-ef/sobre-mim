@@ -1,5 +1,5 @@
 .headerContainer {
-    background-color: #686AAC;
+    background-color: var(--yellow-old);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,5 +14,5 @@
 }
 
 .headerImage {
-    width: 40%;
+    width: 80vh;
 }

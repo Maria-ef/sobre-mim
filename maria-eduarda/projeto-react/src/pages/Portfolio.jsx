@@ -30,7 +30,7 @@ const Portfolio = () => {
 
   return (
     <main>
-    <Header title="Meus projetinhos" image={portfolio} />
+    <Header image={portfolio} />
     <section className={styles.portfolioContainer}>
     
         <Title content='Projetos no meu GitHub' />

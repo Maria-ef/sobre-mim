@@ -1,32 +1,65 @@
 .container {
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
+    margin: 3rem;
+    display: flex;
   }
   
   .sobreContainer {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 1px 1px 6px;
+    border-radius: 15px;
+    width: 70vh;
+    height: 60vh;
+    margin-left: 2rem;
+    margin-top: .9rem;
   }
   
   .imageSobre {
     width: 15rem;
     height: 15rem;
-    border-radius: 10px;
+    border-radius: 15px;
   }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10px;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .buttonImage {
+    width: 4vh;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .buttonImage:hover {
+    cursor: pointer;
+    background-color: #fcba63;
+    box-shadow: 1px 1px 6px #faa70c;
+}
   
   .descriptionContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: justify;
-    margin-top: 2rem;
+    flex-direction: column;
+    gap: 1.3rem;
   }
   
   .paragraphSobre {
     width: 80%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+  }
+
+  .titleParagraph {
+    margin-bottom: 5px;
   }
   
   @media (max-width: 415px) {
