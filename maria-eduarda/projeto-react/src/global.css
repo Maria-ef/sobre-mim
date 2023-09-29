@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserat', sans-serif;
+}
+
+:root {
+    --primary: #cab3fb;
+    --purple-dark: #2e0c78;
+    --light: #ffff;
+    --purple-old: #a77db4;
+    --dark: #000000;
+}

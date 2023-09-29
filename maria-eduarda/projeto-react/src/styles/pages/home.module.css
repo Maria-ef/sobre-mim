@@ -1,0 +1,19 @@
+.homeContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+    gap: 10rem;
+}
+  
+.cardContainer {
+    text-align: center;
+}
+  
+@media (max-width: 930px) {
+    .homeContainer {
+      flex-direction: column;
+      gap: 2rem;
+      font-size: 1.2rem;
+    }
+}
