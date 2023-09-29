@@ -70,8 +70,9 @@ const Sobre = () => {
 
           <div className={styles.paragraphSobre}>
             <h4>Curiosidades</h4>  
-            <li>Nas horas vagas, gosto de assistir filmes e séries, estar com as pessoas que amo e meus bichinhos. ♡</li>
+            <li>Nas horas vagas, gosto de assistir filmes e séries, estar com as pessoas que amo e meus bichinhos ♡</li>
             <li>Amo Harry Potter</li>
+            <li>Amo viajar e quero conhecer o máximo de lugares possíveis</li>
           </div>
 
         </div>
