@@ -1,27 +1,17 @@
 .portfolioContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  margin: 2rem;
+  display: block;
   
-  .cardRepoContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .cardRepo {
-    width: 22em;
-    height: 15em;
-    margin: 1em;
-    padding: .5em;
-    text-align: center;
-    border-style: solid;
-    border-radius: 15px;
-    border-color: var(--purple-dark);
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+}
+
+.cardRepoContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;  
+  padding: 4rem;
+}
+
+.cardRepo {
+  box-shadow: 1px 1px 6px;
+  height: 20vh;
+}

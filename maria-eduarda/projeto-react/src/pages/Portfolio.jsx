@@ -6,6 +6,9 @@ import { useState, useEffect } from 'react'
 
 import Axios from 'axios'
 import { ArrowBendDownRight } from 'phosphor-react'
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 import portfolio from '../assets/portfolio.svg'
 
@@ -28,26 +31,32 @@ const Portfolio = () => {
     getRepos();
   }, [])
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+  };
+
   return (
     <main>
     <Header image={portfolio} />
     <section className={styles.portfolioContainer}>
     
-        <Title content='Projetos no meu GitHub' />
+        {/* <Title content='Projetos no meu GitHub' /> */}
         <div className={styles.cardRepoContainer}>
-          {
-            repos.map((repo) => {
-              return (
-                <div className={styles.cardRepo} key={repo.id}>
-                  <h2>{repo.name}</h2>
-                  <Text content={repo.description ?? 'Repositório sem descrição'} />
-                  <a href={repo.html_url} target='_blank'>
-                    <ArrowBendDownRight size={32} color='#000000' weight='thin' />
-                  </a>
-                </div>
-              )
-            })
-          }
+          <Slider {...settings}>
+            {repos.map((repo) => (
+              <div className={styles.cardRepo} key={repo.id}>
+                <h2>{repo.name}</h2>
+                <Text content={repo.description ?? 'Repositório sem descrição'} />
+                <a href={repo.html_url} target='_blank' rel='noopener noreferrer'>
+                  <ArrowBendDownRight size={32} color='#000000' weight='thin' />
+                </a>
+              </div>
+            ))}
+          </Slider>
         </div>
       </section>
     </main>
