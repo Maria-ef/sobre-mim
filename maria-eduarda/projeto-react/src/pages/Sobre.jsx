@@ -1,12 +1,10 @@
 import Header from "../components/Header"
-import Subtitle from '../components/Subtitle'
-import Text from '../components/Text'
 
-import sobre from '../assets/sobre.svg'
 import maria from '../assets/maria-ef.jpg'
 import github from '../assets/github.png'
 import linkedin from '../assets/linkedin2.png'
 import instagram from '../assets/instagram2.png'
+import banner from '../assets/banner.jfif'
 
 import { Link } from 'react-router-dom'
 
@@ -15,10 +13,9 @@ import styles from '../styles/pages/sobre.module.css'
 const Sobre = () => {
   return (
     <main>
-    <Header textTitle="Saiba mais sobre mim" image={sobre} />
+    <Header textTitle="Saiba mais sobre mim" image={banner} />
     <section className={styles.container}>
         <div className={styles.sobreContainer}>
-          <Subtitle content='Maria Eduarda, prazer!' />
           <img className={styles.imageSobre} src={maria} />
           <div className={styles.buttons}>
             <div className={styles.github}>
@@ -44,28 +41,28 @@ const Sobre = () => {
           <div className={styles.paragraphSobre}>
             Meu nome é Maria Eduarda, sou de Recife e tenho 23 anos. 
             Eu estava cursando Nutrição e realizando um estágio quando tomei a decisão de
-            migrar para a área de tecnologia. E hoje, meu objetivo profissional é tornar-me desenvolvedora Fullstack. 
+            migrar para a área de tecnologia. E hoje, meu objetivo profissional é tornar-me Desenvolvedora Full Stack. 
           </div>  
 
           <div className={styles.paragraphSobre}>
-            <h4>Formação</h4>
+            <h4 className={styles.titleParagraph}>Formação</h4>
             <p>Sou formada em saneamento básico pelo IFPE desde 2020, realizei o bootcamp de Front-End da Reprograma de março a agosto de 2023 e, atualmente, sou estudante de Análise e Desenvolvimento de Sistemas na Uninassau.</p>
           </div>
 
           <div className={styles.paragraphSobre}>  
-            <h4>Experiências</h4>
+            <h4 className={styles.titleParagraph}>Experiências</h4>
             <p>Realizei dois estágios na área de saneamento, onde pude desenvolver habilidades comunicação, trabalho em equipe etc.</p>
           </div>
 
           <div className={styles.paragraphSobre}>  
-            <h4>Hard Skills</h4>
-            <li>Lógica de programação</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Git e Github</li>
-            <li>UX Design</li>
+            <h4 className={styles.titleParagraph}>Soft Skills</h4>
+            <li>Comunicação</li>
+            <li>Trabalho em equipe</li>
+            <li>Criatividade</li>
+            <li>Empatia</li>
+            <li>Produtividade pessoal</li>
+            <li>Relacionamento Interpessoal</li>
+            <li>Resolução de problemas</li>
           </div>
 
           <div className={styles.paragraphSobre}>
