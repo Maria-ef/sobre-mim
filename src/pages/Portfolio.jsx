@@ -13,6 +13,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import portfolio from '../assets/portfolio.svg'
 
 import styles from '../styles/pages/portfolio.module.css'
+import '../styles/pages/portfolio.css'
 
 
 const Portfolio = () => {
@@ -48,7 +49,7 @@ const Portfolio = () => {
         <div className={styles.cardRepoContainer}>
           <Slider {...settings}>
             {repos.map((repo) => (
-              <div className={styles.cardRepo} key={repo.id}>
+              <div className={`custom-card ${styles.cardRepo}`} key={repo.id}>
                 <h2>{repo.name}</h2>
                 <Text content={repo.description ?? 'Repositório sem descrição'} />
                 <a href={repo.html_url} target='_blank' rel='noopener noreferrer'>

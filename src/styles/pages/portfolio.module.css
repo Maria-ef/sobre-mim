@@ -1,7 +1,5 @@
 .portfolioContainer {
   margin: 2rem;
-  display: block;
-  
 }
 
 .cardRepoContainer {
@@ -9,9 +7,28 @@
   flex-direction: column;
   text-align: center;  
   padding: 4rem;
+  /* margin-left: 10px; */
 }
 
 .cardRepo {
-  box-shadow: 1px 1px 6px;
-  height: 20vh;
+  /* background-color: #fff; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  height: 25vh;
+  
+  
 }
+
+.cardRepo h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.slick-slide {
+  margin-left: 10px !important;
+}
+
