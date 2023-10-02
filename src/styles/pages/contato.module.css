@@ -19,7 +19,7 @@
 .formButton {
     width: 60%;
     padding: .6rem 2rem;
-    background-color: #4CAF50;
+    background-color: var(--yellow-old);
     color: #fff;
     border: none;
     margin-top: 1rem;
