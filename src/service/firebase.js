@@ -7,14 +7,13 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCESOwymaPEA5KzgFKn3qfLecNaUv_Eh2o",
-  authDomain: "projeto-final-reprograma-110cc.firebaseapp.com",
-  databaseURL: "https://projeto-final-reprograma-110cc-default-rtdb.firebaseio.com",
-  projectId: "projeto-final-reprograma-110cc",
-  storageBucket: "projeto-final-reprograma-110cc.appspot.com",
-  messagingSenderId: "47485766362",
-  appId: "1:47485766362:web:6a848a424790f1f7dc73e3",
-  measurementId: "G-8QC8D7G3V9"
+  apiKey: "AIzaSyAm-pXVnYnkeKd1RKFkfhz1hDYNqeJ6KdA",
+  authDomain: "semana15-react.firebaseapp.com",
+  databaseURL: "https://semana15-react-default-rtdb.firebaseio.com",
+  projectId: "semana15-react",
+  storageBucket: "semana15-react.appspot.com",
+  messagingSenderId: "1681313740",
+  appId: "1:1681313740:web:99d81ef992760d96495769"
 };
 
 // Initialize Firebase
