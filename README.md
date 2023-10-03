@@ -2,7 +2,7 @@
 
 ### Quem é a Maduh? 
 
-<img src='assets/maria-ef.jpg' width=500 alt='eu'> 
+<img src='./src/assets/maria-ef.jpg' width=500 alt='eu'> 
 
 [Maria Eduarda](https://www.instagram.com/_maduhb/), 
 
