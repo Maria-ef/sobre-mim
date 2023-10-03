@@ -45,7 +45,7 @@ const Portfolio = () => {
     <Header image={portfolio} />
     <section className={styles.portfolioContainer}>
     
-        {/* <Title content='Projetos no meu GitHub' /> */}
+        <Title content='Projetos no meu GitHub' />
         <div className={styles.cardRepoContainer}>
           <Slider {...settings}>
             {repos.map((repo) => (

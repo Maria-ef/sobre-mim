@@ -62,9 +62,30 @@
     margin-bottom: 5px;
   }
   
-  @media (max-width: 415px) {
-    .sobreContainer {
-      flex-direction: column-reverse;
+  @media (max-width: 670px) {
+    .container {
+      flex-direction: column;
       text-align: center;
+      gap: 2rem;
+    }
+
+    .sobreContainer {
+      width: 90%;
     }
   }
+
+  @media (max-width: 390px) {
+  .container {
+    margin: 1rem;
+  }
+
+  .sobreContainer {
+    width: 80%;
+  }
+
+  @media (max-width: 350px) {
+  .imageSobre {
+    width: 95%;
+  }
+  }
+}

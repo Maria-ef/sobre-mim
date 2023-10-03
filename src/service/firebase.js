@@ -7,13 +7,14 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_API_KEY,
-  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_APP_ID,
-  databaseURL: import.meta.env.VITE_DATABASE_URL
+  apiKey: "AIzaSyCESOwymaPEA5KzgFKn3qfLecNaUv_Eh2o",
+  authDomain: "projeto-final-reprograma-110cc.firebaseapp.com",
+  databaseURL: "https://projeto-final-reprograma-110cc-default-rtdb.firebaseio.com",
+  projectId: "projeto-final-reprograma-110cc",
+  storageBucket: "projeto-final-reprograma-110cc.appspot.com",
+  messagingSenderId: "47485766362",
+  appId: "1:47485766362:web:6a848a424790f1f7dc73e3",
+  measurementId: "G-8QC8D7G3V9"
 };
 
 // Initialize Firebase

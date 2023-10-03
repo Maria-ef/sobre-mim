@@ -23,3 +23,15 @@
     color: #faa70c;
 }
 
+@media screen and (max-width: 1220px) {
+    .menuContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; /* Stack menu items vertically */
+        gap: 1rem; /*Reduce the gap between stacked menu items */
+        width: 100%;
+    }
+
+
+}

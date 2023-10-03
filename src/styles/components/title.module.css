@@ -1,6 +1,23 @@
 .title {
     font-size: 4rem;
     color: var(--dark);
-    font-family: 'Pacifico', cursive;
     text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .title {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .title {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .title {
+        font-size: 2rem;
+    }
 }
